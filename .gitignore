@@ -1,0 +1,25 @@
+﻿# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config.json
+
+# Private visitor data and logs
+logs/
+output_images/
+visitor_report.csv
+
+# Local test videos and generated recordings
+*.mp4
+*.gif
+
+# Model weights (keep locally)
+models/
+
+# Editor files
+.vscode/
